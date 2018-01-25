@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-color: #96D828 ;
+                font-family: "Times New Roman", Times, serif;
+
+            }
+            #container{
+                width: 1240px;
+                
+               
+                
+            }
+             .center1 {	text-align: center;
+}
+            #navigation{
+                width: 240px;
+                margin-right: 10px;
+                float:left;
+               background-color: gray;
+                height:90%;
+            }
+            #header{
+                color: white;
+                background-color: black;
+                text-align: center;
+                height: 150px;
+                width:100%;
+                margin-bottom: 20px;
+                
+                
+                
+            }
+            
+            .a1{
+                cursor:pointer; 
+            }
+            p{
+                color: #0E56B3
+                
+               
+            }
+            #main{
+                
+                background-color: white;
+                width:990px;
+                float:right;
+                height:90%;
+                
+                
+            }
+        </style>
+        <title>Laptop Mart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="header">
+                
+                <img style="display: inline;" src="Laptop mart.png" width="150" height="150" align="left" alt="logo" />
+<h1 style="display: inline;margin-right: 160px" >Laptop Mart</h1>
+<a href="admin.jsp" ><h4 style="color:white;text-align: right;margin-top: 90px;margin-right: 30px;">Admin</h4></a>
+            </div>
+            <div id="navigation">
+                <h3>Choose Brand</h3>
+                <form>
+                <input type="radio" name="brand" value="1">samsung<br>
+                <input type="radio" name="brand" value="2">HP<br>
+                <input type="radio" name="brand" value="3">Macbook<br>
+                 <input type="radio" name="brand" value="4">Acer<br>
+                  <input type="radio" name="brand" value="5">Dell<br>
+                   <input type="radio" name="brand" value="6">Lenovo<br>
+                    <input type="radio" name="brand" value="7">Asus<br>
+                     <input type="radio" name="brand" value="8">MicroMax<br>
+                      <input type="radio" name="brand" value="9">Microsoft<br>
+                       <input type="radio" name="brand" value="10">alienware<br>
+                        <input type="radio" name="brand" value="11">LG<br>
+                         <input type="radio" name="brand" value="12">IBall<br>
+                          <input type="radio" name="brand" value="13">Lava<br>
+                </form>
+            </div>
+            <div id="main">
+                <table   >
+      <tr >
+        <td  align="center">NEW ARRIVALS</td>
+      </tr>
+      <tr>
+        <td ><table>
+          <tr>
+            <td>
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=1> 
+
+<input  class="a1" type="image"  src="images/1.jpg" alt="image" width="200" height="200"> 
+</form></td>
+              </tr>
+            </table>
+              <p class="center1">Samsung RV 511</p>
+              <p class="center1">Rs. 28,500</p>
+            </td>
+            <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=2>
+<input type="image" class="a1" alt="image" src="images/2.jpg" width="200" height="200"> 
+</form></td>
+              </tr>
+            </table>
+              <p>HP 15BS</p>
+              <p>Rs. 38,000</p></td>
+            
+            <td>
+                <table>
+              <tr>
+                <td>
+                    <form action="product.jsp"> 
+<input type="hidden" name="product" value=3> 
+<input  type="image" class="a1" alt="image" src="images/3.jpg" width="200" height="200"> 
+</form></td>
+              </tr>
+            </table>
+              <p class="center1">Macbook pro</p>
+              <p class="center1">Rs. 90,000</p>
+            </td>
+            <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=4>
+<input  type="image" class="a1" alt="image" src="images/4.jpg" width="200" height="150"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Acer Aspire 3</p>
+              <p>Rs. 25,990</p></td>
+          </tr>
+          <tr>
+             <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=5>
+<input type="image" class="a1" src="images/5.jpg" alt="image" width="200" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Dell Vostro 3468</p>
+              <p>Rs. 29,650</p></td>
+             
+              <td class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=6>
+<input  type="image" class="a1" alt="image" src="images/6.jpg" width="200" height="130"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Lenovo Ideapad</p>
+              <p>Rs. 28,400</p></td>
+              
+              <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=7>
+<input type="image" class="a1" alt="image" src="images/7.jpg" width="200" height="130"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Asus VivoBook</p>
+              <p>Rs. 28,000</p>
+              </td>
+           
+              <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=8>
+<input  type="image" class="a1" src="images/8.jpg" alt="image" width="200" height="130"> 
+</form></td>
+              </tr>
+            </table>
+              <p>MicroMax LapBook</p>
+              <p>Rs. 9,890</p>
+              </td>
+          </tr>
+          <tr>
+            <td  class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=9>
+<input  type="image" class="a1" src="images/9.jpg" alt="image" width="200" height="130"> 
+</form></td>
+              </tr>
+            </table>
+              <p>MicroSoft Surface</p>
+              <p>Rs. 152,000</p>
+              </td> 
+              
+              <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=10>
+<input  type="image" class="a1" src="images/10.jpg" alt="image" width="200" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>AlienWare 15</p>
+              <p>Rs. 133,000</p>
+              </td>
+              
+              <td class="center1">
+                <table  align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=11>
+<input  type="image" class="a1" src="images/11.jpg" alt="image" width="200" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>LG Gram</p>
+              <p>Rs. 104,000</p>
+              </td>
+              <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=12>
+<input type="image" class="a1" src="images/12.jpg" alt="image" width="250" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>IBall CompBook</p>
+              <p>Rs. 16,500</p>
+              </td>
+          </tr>
+          <tr>
+              <td class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=13>
+<input type="image" class="a1" src="images/13.jpg" alt="image" width="200" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>LAVA Helium 14</p>
+              <p>Rs. 15,000</p>
+              </td>
+              
+              <td class="center1">
+                <table>
+              <tr>
+                <td width="111"><form action="product.jsp"> 
+<input type="hidden" name="product" value=14>
+<input type="image" class="a1" alt="image" src="images/14.jpg" width="200" height="180"> 
+</form></td>
+              </tr>
+            </table>
+              <p>HP Pavilion 15</p>
+              <p>Rs. 48,000</p>
+              </td>
+              
+               <td class="center1">
+                <table>
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=15>
+<input  class="a1" type="image" src="images/15.jpg" width="220" height="140" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Samsung Chromebook 3</p>
+              <p>Rs. 43,200</p>
+              </td>
+              
+              <td  class="center1">
+                <table  align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=16>
+<input alt="image" class="a1" type="image" src="images/16.jpg" width="220" height="140"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Macbook Air</p>
+              <p>Rs. 54,500</p>
+              </td>
+          </tr>
+          
+          <tr>
+              <td  class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=17>
+<input  class="a1" type="image" src="images/17.jpg" width="210" height="160" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Acer Nitro</p>
+              <p>Rs.86490</p>
+              </td>
+              
+              <td class="center1">
+                <table  align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=18>
+<input  type="image" class="a1" src="images/18.jpg" width="200" height="160" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Dell Inspiron 15</p>
+              <p>Rs. 84,000</p>
+              </td>
+              
+               <td class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=19>
+<input  type="image" class="a1" src="images/19.jpg" width="220" height="140" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Lenovo 80X</p>
+              <p>Rs. 37500</p>
+              </td>
+              
+              <td class="center1">
+                <table  align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=20>
+<input type="image" class="a1" src="images/20.jpg" width="220" height="140" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Asus R series</p>
+              <p>Rs. 38000</p>
+              </td>
+          </tr>
+          <tr>
+              <td  class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=21>
+<input  type="image" class="a1" src="images/21.jpg" width="210" height="160" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>MicroMax LapTab 2</p>
+              <p>Rs.16000</p>
+              </td>
+              
+              <td class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=22>
+<input type="image" class="a1" src="images/22.jpg" width="200" height="180" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>Surface pro 4</p>
+              <p>Rs. 60000</p>
+              </td>
+              
+               <td class="center1">
+                <table  align="center">
+              <tr>
+                <td width="111"><form action="product.jsp"> 
+<input type="hidden" name="product" value=23>
+<input  class="a1" type="image" src="images/23.jpg" width="220" height="180" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>AlienWare ANW17</p>
+              <p>Rs. 158,000</p>
+              </td>
+              
+              <td  class="center1">
+                <table align="center">
+              <tr>
+                <td><form action="product.jsp"> 
+<input type="hidden" name="product" value=24>
+<input  class="a1" type="image" src="images/24.jpg" width="220" height="160" alt="image"> 
+</form></td>
+              </tr>
+            </table>
+              <p>IBall i360</p>
+              <p>Rs. 13500</p>
+              </td>
+          </tr>
+          <tr>
+               <td class="center1">
+                <table>
+              <tr>
+                <td>
+                    <form action="product.jsp"> 
+<input type="hidden" name="product" value=25>
+<input  class="a1" type="image" src="images/25.jpg" width="220" height="160" alt="image"> 
+  
+
+                    </form>
+                </td>
+              </tr>
+                </table>
+              <p>Lava Helium </p>
+              <p>Rs. 13000</p>
+              </td>
+          </tr>
+        </table></td>
+      </tr>
+     
+      
+       
+    </table>
+                          
+
+            </div>
+        </div>
+    </body>
+</html>
