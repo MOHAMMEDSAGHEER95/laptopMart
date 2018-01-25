@@ -16,6 +16,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+          <h1> ORDER DETAILS</h1>
        <%
            
              Class.forName("com.mysql.jdbc.Driver");
@@ -31,7 +32,7 @@
             {
                 %>
                  
-                <h1> ORDER DETAILS</h1>
+              
                 <table border="0" cellspacing="15">
                     <tr>
                         <td>
