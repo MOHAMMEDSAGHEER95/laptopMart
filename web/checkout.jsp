@@ -101,6 +101,7 @@
      if(!document.myForm.name.match(w))
      {
          alert("enter characters only for name");
+         return false;
          
      }
     if (x == 0 || y == 0) {
@@ -145,7 +146,7 @@
                  <img src="images/<%=a%>.jpg" width="500" height="400" >
                  <div id="details">
                      
-                     <form class="temp" name="form" onsubmit="return validateForm()" action="confirm.jsp" method="post">
+                     <form class="temp" name="form" onsubmit="return validateForm()"  method="post">
                          <input type="hidden" name="product" value=<%=a%> >
                          <input type="hidden" name="b" value=<%=b%> >
                           <input type="hidden" name="c" value=<%=c%> >
