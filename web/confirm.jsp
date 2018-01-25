@@ -73,11 +73,12 @@
                String h=request.getParameter("b");
                String i=request.getParameter("c");
                String j1=request.getParameter("d");
+               String k=request.getParameter("email");
                int j=Integer.parseInt(j1);
               Class.forName("com.mysql.jdbc.Driver");
             Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
             Statement stmt=con.createStatement();
-             String qr="insert into tbl_order(name,item,price,del,address,l_id) values('"+c+" "+d+"','"+h+" "+i+"','"+j+"','"+f+"','"+g+"','"+b+"')";
+             String qr="insert into tbl_order(name,item,price,del,address,l_id,email) values('"+c+" "+d+"','"+h+" "+i+"','"+j+"','"+f+"','"+g+"','"+b+"','"+k+"')";
              System.out.println(qr);
              
              try
