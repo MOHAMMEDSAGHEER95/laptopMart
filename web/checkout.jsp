@@ -97,13 +97,8 @@
      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
      var z=document.form.del.value.length;
      var v=document.form.address.value.length;
-     var w= /^[a-zA-Z]+$/;
-     if(!document.myForm.name.match(w))
-     {
-         alert("enter characters only for name");
-         return false;
-         
-     }
+     
+    
     if (x == 0 || y == 0) {
         alert("Name must be filled out");
         return false;
