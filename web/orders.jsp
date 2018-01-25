@@ -14,8 +14,50 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <style>
+             body
+            {
+                background-color: #96D828 ;
+                font-family: "Times New Roman", Times, serif;
+
+            }
+            #header{
+                color: white;
+                background-color: black;
+                text-align: center;
+                height: 150px;
+                width:100%;
+                margin-bottom: 20px;
+                
+                
+                
+            }
+            #main{
+                
+                background-color: white;
+                width:100%;
+                float:right;
+                height:100%;
+                
+            }
+            #table{
+                
+                    width: 350px;
+            }
+            #pic{
+                float:left;;
+                
+            }
+            
+           
+        </style>
     </head>
     <body>
+        <div id="header">
+                    <a href="index.html"><img style="display: inline;" src="Laptop mart.png" width="150" height="150" align="left" alt="logo" /></a>
+                     <h1 style="display: inline;margin-right: 160px;" >Laptop Mart</h1>
+                </div>
+        <div id="main">
           <h1> ORDER DETAILS</h1>
        <%
            
@@ -31,12 +73,15 @@
             while(rs.next())
             {
                 %>
-                 
-              
+                 <div id="container">
+              <div id="table">
+                  <table border="1">
+                      <tr>
+                          <td width="300px">
                 <table border="0" cellspacing="15">
                     <tr>
                         <td>
-                            id
+                           Order id
                         </td>
                         <td>
                             :
@@ -55,6 +100,7 @@
                         <td>
                             <%=rs.getString(2)%>
                         </td>
+                        
                     </tr>
                     <tr>
                         <td>
@@ -102,6 +148,21 @@
                     </tr>
                     
                 </table>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td width="300px" height="250px">
+                        </div>
+                        <div id="pic">
+                            
+                            <img src="images/<%=rs.getString(7)%>.jpg" alt="image" width="250" height="150">
+                            
+                        </div>
+                 </td>
+                 </tr>
+                            </table>
+                 </div>
+        </div>
                       <%
                    
             }
