@@ -141,7 +141,7 @@
                  <img src="images/<%=a%>.jpg" width="500" height="400" >
                  <div id="details">
                      
-                     <form class="temp" name="form" onsubmit="return validateForm()"  method="post">
+                     <form class="temp" name="form" onsubmit="return validateForm()" action="confirm.jsp"  method="post">
                          <input type="hidden" name="product" value=<%=a%> >
                          <input type="hidden" name="b" value=<%=b%> >
                           <input type="hidden" name="c" value=<%=c%> >
