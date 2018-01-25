@@ -42,7 +42,7 @@
             }
             #table{
                 
-                    width: 350px;
+                    width: 550px;
             }
             #pic{
                 float:left;;
@@ -75,9 +75,9 @@
                 %>
                  <div id="container">
               <div id="table">
-                  <table border="1">
+                  <table class="design" border="1" style="border-color:#BF2E5A;background-color:#F3EBD9; ">
                       <tr>
-                          <td width="300px">
+                          <td width="350px" height="350px">
                 <table border="0" cellspacing="15">
                     <tr>
                         <td>
@@ -149,10 +149,10 @@
                     
                 </table>
                           </td>
-                      </tr>
-                      <tr>
-                          <td width="300px" height="250px">
-                        </div>
+                      
+                     
+                          <td width="300px" height="350px">
+                        
                         <div id="pic">
                             
                             <img src="images/<%=rs.getString(7)%>.jpg" alt="image" width="250" height="150">
