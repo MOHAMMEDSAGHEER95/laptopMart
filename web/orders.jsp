@@ -42,7 +42,7 @@
             }
             #table{
                 
-                    width: 550px;
+                    width: 750px;
             }
             #pic{
                 float:left;;
@@ -75,9 +75,9 @@
                 %>
                  <div id="container">
               <div id="table">
-                  <table class="design" border="1" style="border-color:#BF2E5A;background-color:#F3EBD9; ">
+                  <table class="design" border="2" style="border-color:#BF2E5A;background-color:#F3EBD9;border-radius: 13px; ">
                       <tr>
-                          <td width="350px" height="350px">
+                          <td width="550px" height="300px">
                 <table border="0" cellspacing="15">
                     <tr>
                         <td>
@@ -147,11 +147,24 @@
                         </td>
                     </tr>
                     
+                    <tr>
+                        <td>
+                            Email
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <%=rs.getString(8)%>
+                        </td>
+                    </tr>
+                    
+                    
                 </table>
                           </td>
                       
                      
-                          <td width="300px" height="350px">
+                          <td width="550px" height="300px">
                         
                         <div id="pic">
                             
