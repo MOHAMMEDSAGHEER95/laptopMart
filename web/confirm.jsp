@@ -77,7 +77,7 @@
               Class.forName("com.mysql.jdbc.Driver");
             Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
             Statement stmt=con.createStatement();
-             String qr="insert into tbl_order(name,item,price,del,address) values('"+c+" "+d+"','"+h+" "+i+"','"+j+"','"+f+"','"+g+"')";
+             String qr="insert into tbl_order(name,item,price,del,address,l_id) values('"+c+" "+d+"','"+h+" "+i+"','"+j+"','"+f+"','"+g+"','"+b+"')";
              System.out.println(qr);
              
              try
