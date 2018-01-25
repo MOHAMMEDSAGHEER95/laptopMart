@@ -9,6 +9,7 @@
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.util.Date"%>
+<%@page import="connection.Database"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -98,10 +99,10 @@
                 
             <%
            
-             Class.forName("com.mysql.jdbc.Driver");
-        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
-        Statement stmt=con.createStatement();
-          
+//             Class.forName("com.mysql.jdbc.Driver");
+//        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
+//        Statement stmt=con.createStatement();
+          Statement stmt=Database.connPass();
         String sql="select *from tbl_laptop where l_id='"+a+"'";
         try
         {

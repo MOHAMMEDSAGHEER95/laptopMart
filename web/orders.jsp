@@ -4,6 +4,7 @@
     Author     : NB
 --%>
 
+<%@page import="connection.Database"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
@@ -61,9 +62,10 @@
           <h1> ORDER DETAILS</h1>
        <%
            
-             Class.forName("com.mysql.jdbc.Driver");
-        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
-        Statement stmt=con.createStatement();
+//             Class.forName("com.mysql.jdbc.Driver");
+//        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagheer","root","root");
+//        Statement stmt=con.createStatement();
+           Statement stmt=Database.connPass();
           
         String sql="select *from tbl_order";
         try
