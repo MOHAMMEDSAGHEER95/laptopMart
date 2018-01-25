@@ -58,7 +58,7 @@
         
             <div id="header">
                 
-                <img style="display: inline;" src="Laptop mart.png" width="150" height="150" align="left" alt="logo" />
+                <a href="index.html"><img style="display: inline;" src="Laptop mart.png" width="150" height="150" align="left" alt="logo" /></a>
 <h1 style="display: inline;margin-right: 160px;" >Laptop Mart</h1>
             </div>
              <div id="main">
